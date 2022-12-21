@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-personal-portfolio/static/css/main.fb811ad6.css",
-    "main.js": "/react-personal-portfolio/static/js/main.fd3c49aa.js",
-    "static/media/portfolio2.png": "/react-personal-portfolio/static/media/portfolio2.acbe9ed80c05eb3c8145.png",
-    "static/media/portfolio1.png": "/react-personal-portfolio/static/media/portfolio1.28a6455a3f013ad26c8e.png",
-    "static/media/portfolio3.png": "/react-personal-portfolio/static/media/portfolio3.8f9f034b3ce947669f40.png",
-    "static/media/home-img.png": "/react-personal-portfolio/static/media/home-img.4610f4017a1b8febf6a8.png",
-    "static/media/tentang-saya-img.png": "/react-personal-portfolio/static/media/tentang-saya-img.9dbbaa68f3f08e3b6197.png",
-    "static/media/modern-admin.png": "/react-personal-portfolio/static/media/modern-admin.3f8ae584d86fb5a5c060.png",
-    "index.html": "/react-personal-portfolio/index.html",
-    "main.fb811ad6.css.map": "/react-personal-portfolio/static/css/main.fb811ad6.css.map",
-    "main.fd3c49aa.js.map": "/react-personal-portfolio/static/js/main.fd3c49aa.js.map"
+    "main.css": "/static/css/main.fb811ad6.css",
+    "main.js": "/static/js/main.a81351fd.js",
+    "static/media/portfolio2.png": "/static/media/portfolio2.acbe9ed80c05eb3c8145.png",
+    "static/media/portfolio1.png": "/static/media/portfolio1.28a6455a3f013ad26c8e.png",
+    "static/media/portfolio3.png": "/static/media/portfolio3.8f9f034b3ce947669f40.png",
+    "static/media/home-img.png": "/static/media/home-img.4610f4017a1b8febf6a8.png",
+    "static/media/tentang-saya-img.png": "/static/media/tentang-saya-img.9dbbaa68f3f08e3b6197.png",
+    "static/media/modern-admin.png": "/static/media/modern-admin.3f8ae584d86fb5a5c060.png",
+    "index.html": "/index.html",
+    "main.fb811ad6.css.map": "/static/css/main.fb811ad6.css.map",
+    "main.a81351fd.js.map": "/static/js/main.a81351fd.js.map"
   },
   "entrypoints": [
     "static/css/main.fb811ad6.css",
-    "static/js/main.fd3c49aa.js"
+    "static/js/main.a81351fd.js"
   ]
 }
