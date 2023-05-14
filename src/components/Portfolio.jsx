@@ -4,8 +4,11 @@ import portfolio2 from "../images/portfolio2.png";
 // import portfolio3 from "../images/portfolio3.png";
 // import portfolio4 from "../images/modern-admin.png";
 import { Link } from "react-scroll";
+import { downloadFileAtURL } from "../helpers/helpers";
 
 export default function Portfolio() {
+  const URL_KASIR = `${process.env.REACT_APP_URL_CLIENT}/kasir.pdf`;
+
   return (
     <section className="portfolio" id="portfolio">
       <div className="container" style={{ marginTop: "40px" }}>
@@ -93,6 +96,7 @@ export default function Portfolio() {
                         className="btn btn-primary btn-edited trigger"
                         style={{
                           marginRight: "10px",
+                          marginBottom: "10px",
                         }}
                       >
                         Live Demo <i className="bi bi-arrow-right-short" />
@@ -104,6 +108,7 @@ export default function Portfolio() {
                         className="btn btn-outline-dark btn-edited-github"
                         style={{
                           marginRight: "10px",
+                          marginBottom: "10px",
                         }}
                       >
                         Github <i className="bi bi-arrow-right-short" />
@@ -189,10 +194,21 @@ export default function Portfolio() {
                         className="btn btn-primary btn-edited"
                         style={{
                           marginRight: "10px",
+                          marginBottom: "10px",
                         }}
                       >
                         Live Demo <i className="bi bi-arrow-right-short" />
                       </a>
+                      <button
+                        className="btn btn-primary btn-edited-documentation"
+                        onClick={() => downloadFileAtURL(URL_KASIR)}
+                        style={{
+                          marginRight: "10px",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        PDF Documentation
+                      </button>
                       <a
                         href="https://github.com/diky-satria/fullstack-chasier"
                         target="_blank"
@@ -200,6 +216,7 @@ export default function Portfolio() {
                         className="btn btn-outline-dark btn-edited-github"
                         style={{
                           marginRight: "10px",
+                          marginBottom: "10px",
                         }}
                       >
                         Github <i className="bi bi-arrow-right-short" />

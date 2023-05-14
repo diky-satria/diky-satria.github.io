@@ -139,6 +139,14 @@ body.dark {
   box-shadow: var(--shadow-black-100);
   color: #6d6b6b !important;
 }
+.btn-edited-documentation {
+  padding: 5px 15px !important;
+  border-radius: 30px;
+  background-color: rgb(153, 29, 29) !important;
+  border: 0 !important;
+  box-shadow: var(--shadow-black-100);
+  color: #ffffff !important;
+}
 /* home end */
 
 /* about me */
@@ -433,6 +441,7 @@ i.bi.bi-arrow-down-short.ms-auto.putar {
   }
   .portfolio-detail {
     text-align: center;
+    margin-top: 15px;
   }
   .p-title {
     margin-bottom: 10px !important;

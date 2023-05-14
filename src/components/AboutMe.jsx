@@ -30,8 +30,9 @@ export default function AboutMe() {
                 Jakarta
               </p>
               <p>
-                There are some webiste application I have been created, started
-                web design until web programming
+                I have 1 year experience as a Fullstack developer. There are
+                some webiste application I have been created, started web design
+                until web programming
               </p>
               <p>
                 If you interest with me and want to cooperate with me, please

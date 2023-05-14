@@ -1,11 +1,8 @@
 import React from "react";
 import img1 from "../images/home-vektor.png";
 import img2 from "../images/home-img.png";
-import { downloadFileAtURL } from "../helpers/helpers";
 
 export default function Home() {
-  const URL_CV = `${process.env.REACT_APP_URL_CLIENT}/test.pdf`;
-
   return (
     <div>
       <section className="home" id="home">
@@ -22,10 +19,7 @@ export default function Home() {
                   This is my official portfolio website that showing all details
                   my experiences as a Full Stack Developer
                 </p>
-                <button
-                  className="btn btn-primary btn-edited"
-                  onClick={() => downloadFileAtURL(URL_CV)}
-                >
+                <button className="btn btn-primary btn-edited">
                   Download CV
                 </button>
               </div>
