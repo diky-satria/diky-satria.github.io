@@ -1,8 +1,8 @@
 import React from "react";
 import portfolio1 from "../images/portfolio1.png";
 import portfolio2 from "../images/portfolio2.png";
-// import portfolio3 from "../images/portfolio3.png";
-// import portfolio4 from "../images/modern-admin.png";
+import portfolio3 from "../images/portfolio3.png";
+import portfolio4 from "../images/portfolio4.png";
 import { Link } from "react-scroll";
 import { downloadFileAtURL } from "../helpers/helpers";
 
@@ -43,7 +43,7 @@ export default function Portfolio() {
                 data-bs-slide-to={1}
                 aria-label="Slide 2"
               />
-              {/* <button
+              <button
                 type="button"
                 data-bs-target="#carouselExampleDark"
                 data-bs-slide-to={2}
@@ -54,7 +54,7 @@ export default function Portfolio() {
                 data-bs-target="#carouselExampleDark"
                 data-bs-slide-to={3}
                 aria-label="Slide 3"
-              /> */}
+              />
             </div>
             <div className="carousel-inner portfolio-konten">
               <div className="carousel-item portfolio-item active">
@@ -225,32 +225,60 @@ export default function Portfolio() {
                   </div>
                 </div>
               </div>
-              {/* <div className="carousel-item portfolio-item">
+              <div className="carousel-item portfolio-item">
                 <div className="row justify-content-center">
                   <div className="col-md-4">
                     <div className="portfolio-gambar">
                       <img
                         src={portfolio3}
                         className="d-block w-100"
-                        alt="portfolio3"
+                        alt="portfolio2"
                       />
                     </div>
                   </div>
                   <div className="col-md-5">
                     <div className="portfolio-detail">
-                      <h2 className="p-title">Payroll Website Application</h2>
+                      <h2 className="p-title">Modern Admin Dahsboard 1</h2>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        React JS
+                      </span>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        Bootstrap 4
+                      </span>
                       <p>
-                        This is a website application that purpose to print the
-                        employes sallary slip. it is have 2 role access admin
-                        and user
+                        This is a admin dashboard that I build with React JS and
+                        Bootstrap 4. It's already responsive for each size such
+                        as website, tablet and smartphone.
                       </p>
                       <a
-                        href="http://lajaxpay.herokuapp.com/"
+                        href="https://bootstrap4.dikysatria.net/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-primary btn-edited"
+                        style={{
+                          marginRight: "10px",
+                          marginBottom: "10px",
+                        }}
                       >
                         Live Demo <i className="bi bi-arrow-right-short" />
+                      </a>
+                      <a
+                        href="https://github.com/diky-satria/react-dashboard-boots4"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-outline-dark btn-edited-github"
+                        style={{
+                          marginRight: "10px",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        Github <i className="bi bi-arrow-right-short" />
                       </a>
                     </div>
                   </div>
@@ -263,26 +291,59 @@ export default function Portfolio() {
                       <img
                         src={portfolio4}
                         className="d-block w-100"
-                        alt="portfolio4"
+                        alt="portfolio2"
                       />
                     </div>
                   </div>
                   <div className="col-md-5">
                     <div className="portfolio-detail">
-                      <h2 className="p-title">Modern Admin Dashboard</h2>
-                      <p>This is admin dashboard panel with modern theme</p>
+                      <h2 className="p-title">Modern Admin Dahsboard 2</h2>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        React JS
+                      </span>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        Bootstrap 5
+                      </span>
+                      <p>
+                        This is a admin dashboard that I build with React JS and
+                        Bootstrap 5. There is a little bit improvment in navbar
+                        part, available search input. It's already responsive
+                        for each size such as website, tablet and smartphone.
+                      </p>
                       <a
-                        href="https://diky-satria.github.io/modern-admin-dashboard"
+                        href="https://bootstrap5.dikysatria.net/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-primary btn-edited"
+                        style={{
+                          marginRight: "10px",
+                          marginBottom: "10px",
+                        }}
                       >
                         Live Demo <i className="bi bi-arrow-right-short" />
+                      </a>
+                      <a
+                        href="https://github.com/diky-satria/react-dashboard-boots5"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-outline-dark btn-edited-github"
+                        style={{
+                          marginRight: "10px",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        Github <i className="bi bi-arrow-right-short" />
                       </a>
                     </div>
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
