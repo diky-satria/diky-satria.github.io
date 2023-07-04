@@ -3,6 +3,7 @@ import portfolio1 from "../images/portfolio1.png";
 import portfolio2 from "../images/portfolio2.png";
 import portfolio3 from "../images/portfolio3.png";
 import portfolio4 from "../images/portfolio4.png";
+import portfolio5 from "../images/portfolio5.png";
 import { Link } from "react-scroll";
 import { downloadFileAtURL } from "../helpers/helpers";
 
@@ -53,7 +54,13 @@ export default function Portfolio() {
                 type="button"
                 data-bs-target="#carouselExampleDark"
                 data-bs-slide-to={3}
-                aria-label="Slide 3"
+                aria-label="Slide 4"
+              />
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to={4}
+                aria-label="Slide 5"
               />
             </div>
             <div className="carousel-inner portfolio-konten">
@@ -185,7 +192,7 @@ export default function Portfolio() {
                         >
                           Contact me
                         </Link>{" "}
-                        for user access.{" "}
+                        for user the access.{" "}
                       </p>
                       <a
                         href="https://kasir.dikysatria.net/"
@@ -252,9 +259,9 @@ export default function Portfolio() {
                         Bootstrap 4
                       </span>
                       <p>
-                        This is a admin dashboard that I build with React JS and
-                        Bootstrap 4. It's already responsive for each size such
-                        as website, tablet and smartphone.
+                        This is a admin dashboard that I build with React JS and{" "}
+                        <b>Bootstrap 4.</b> It's already responsive for each
+                        size such as website, tablet and smartphone.
                       </p>
                       <a
                         href="https://bootstrap4.dikysatria.net/"
@@ -311,10 +318,11 @@ export default function Portfolio() {
                         Bootstrap 5
                       </span>
                       <p>
-                        This is a admin dashboard that I build with React JS and
-                        Bootstrap 5. There is a little bit improvment in navbar
-                        part, available search input. It's already responsive
-                        for each size such as website, tablet and smartphone.
+                        This is a admin dashboard that I build with React JS and{" "}
+                        <b>Bootstrap 5.</b> There is a little bit improvment in
+                        navbar part, available search input. It's already
+                        responsive for each size such as website, tablet and
+                        smartphone.
                       </p>
                       <a
                         href="https://bootstrap5.dikysatria.net/"
@@ -330,6 +338,126 @@ export default function Portfolio() {
                       </a>
                       <a
                         href="https://github.com/diky-satria/react-dashboard-boots5"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-outline-dark btn-edited-github"
+                        style={{
+                          marginRight: "10px",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        Github <i className="bi bi-arrow-right-short" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item portfolio-item">
+                <div className="row justify-content-center">
+                  <div className="col-md-4">
+                    <div className="portfolio-gambar">
+                      <img
+                        src={portfolio5}
+                        className="d-block w-100"
+                        alt="portfolio5"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-md-5">
+                    <div className="portfolio-detail">
+                      <h2 className="p-title">Blog</h2>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        Node JS
+                      </span>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        Express JS
+                      </span>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        MYSQL
+                      </span>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        React JS
+                      </span>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        Bootstrap 5
+                      </span>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        Ant Design
+                      </span>
+                      <p>
+                        This is a blog website application, you can write and
+                        share knowladge if you want by this website. it's have 2
+                        role access, admin and user.{" "}
+                        <Link
+                          className="trigger"
+                          to="kontak"
+                          spy={true}
+                          smooth={true}
+                          offset={0}
+                          duration={500}
+                          style={{
+                            cursor: "pointer",
+                            textDecoration: "none",
+                          }}
+                        >
+                          Contact me
+                        </Link>{" "}
+                        for the user access.{" "}
+                        <a
+                          href="https://blog.dikysatria.net/auth"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          style={{
+                            marginRight: "10px",
+                            marginBottom: "10px",
+                            textDecoration: "none",
+                          }}
+                        >
+                          Go to login page
+                        </a>
+                      </p>
+                      <a
+                        href="https://blog.dikysatria.net/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-primary btn-edited"
+                        style={{
+                          marginRight: "10px",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        Live Demo <i className="bi bi-arrow-right-short" />
+                      </a>
+                      {/* <button
+                        className="btn btn-primary btn-edited-documentation"
+                        onClick={() => downloadFileAtURL(URL_KASIR)}
+                        style={{
+                          marginRight: "10px",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        PDF Documentation
+                      </button> */}
+                      <a
+                        href="https://github.com/diky-satria/fullstack-blog"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-outline-dark btn-edited-github"
