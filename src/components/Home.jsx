@@ -1,6 +1,7 @@
 import React from "react";
 import img1 from "../images/home-vektor.png";
 import img2 from "../images/home-img.png";
+import { Link } from "react-scroll";
 
 export default function Home() {
   return (
@@ -19,9 +20,16 @@ export default function Home() {
                   This is my official portfolio website that showing all details
                   my experiences as a Full Stack Developer
                 </p>
-                <button className="btn btn-primary btn-edited">
-                  Download CV
-                </button>
+                <Link
+                  className="btn btn-primary btn-edited trigger"
+                  to="kontak"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                >
+                  My Contact
+                </Link>
               </div>
             </div>
             <div className="col-md-5">

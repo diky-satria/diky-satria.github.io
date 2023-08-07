@@ -4,11 +4,15 @@ import portfolio2 from "../images/portfolio2.png";
 import portfolio3 from "../images/portfolio3.png";
 import portfolio4 from "../images/portfolio4.png";
 import portfolio5 from "../images/portfolio5.png";
+import portfolio6 from "../images/portfolio6.png";
+import portfolio7 from "../images/portfolio7.png";
 import { Link } from "react-scroll";
 import { downloadFileAtURL } from "../helpers/helpers";
 
 export default function Portfolio() {
   const URL_KASIR = `${process.env.REACT_APP_URL_CLIENT}/kasir.pdf`;
+  const URL_BLOG = `${process.env.REACT_APP_URL_CLIENT}/blog.pdf`;
+  const URL_PRESENSI = `${process.env.REACT_APP_URL_CLIENT}/presensi.pdf`;
 
   return (
     <section className="portfolio" id="portfolio">
@@ -61,6 +65,18 @@ export default function Portfolio() {
                 data-bs-target="#carouselExampleDark"
                 data-bs-slide-to={4}
                 aria-label="Slide 5"
+              />
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to={5}
+                aria-label="Slide 6"
+              />
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to={6}
+                aria-label="Slide 7"
               />
             </div>
             <div className="carousel-inner portfolio-konten">
@@ -446,18 +462,198 @@ export default function Portfolio() {
                       >
                         Live Demo <i className="bi bi-arrow-right-short" />
                       </a>
-                      {/* <button
+                      <button
                         className="btn btn-primary btn-edited-documentation"
-                        onClick={() => downloadFileAtURL(URL_KASIR)}
+                        onClick={() => downloadFileAtURL(URL_BLOG)}
                         style={{
                           marginRight: "10px",
                           marginBottom: "10px",
                         }}
                       >
                         PDF Documentation
-                      </button> */}
+                      </button>
                       <a
                         href="https://github.com/diky-satria/fullstack-blog"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-outline-dark btn-edited-github"
+                        style={{
+                          marginRight: "10px",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        Github <i className="bi bi-arrow-right-short" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item portfolio-item">
+                <div className="row justify-content-center">
+                  <div className="col-md-4">
+                    <div className="portfolio-gambar">
+                      <img
+                        src={portfolio6}
+                        className="d-block w-100"
+                        alt="portfolio6"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-md-5">
+                    <div className="portfolio-detail">
+                      <h2 className="p-title">Modern Admin Dashboard 3</h2>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        React JS
+                      </span>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        Bootstrap 5
+                      </span>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        Typescript
+                      </span>
+                      <p>
+                        This is a admin dashboard that I build with React JS,
+                        Bootstrap 5 and <b>Typescript.</b> It's already
+                        responsive for each size such as website, tablet and
+                        smartphone.
+                      </p>
+                      <a
+                        href="https://bootstrap5ts.dikysatria.net/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-primary btn-edited"
+                        style={{
+                          marginRight: "10px",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        Live Demo <i className="bi bi-arrow-right-short" />
+                      </a>
+                      <a
+                        href="https://github.com/diky-satria/react-dashboard-boots5-typescript"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-outline-dark btn-edited-github"
+                        style={{
+                          marginRight: "10px",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        Github <i className="bi bi-arrow-right-short" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item portfolio-item">
+                <div className="row justify-content-center">
+                  <div className="col-md-4">
+                    <div className="portfolio-gambar">
+                      <img
+                        src={portfolio7}
+                        className="d-block w-100"
+                        alt="portfolio7"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-md-5">
+                    <div className="portfolio-detail">
+                      <h2 className="p-title">Employes Presensi</h2>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        Node JS
+                      </span>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        Express JS
+                      </span>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        MYSQL
+                      </span>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        React JS
+                      </span>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        Bootstrap 5
+                      </span>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        Ant design
+                      </span>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        Typescript
+                      </span>
+                      <p>
+                        This is a website presensi application base on take a
+                        picture and location. It's have 2 role access, admin dan
+                        user.{" "}
+                        <Link
+                          className="trigger"
+                          to="kontak"
+                          spy={true}
+                          smooth={true}
+                          offset={0}
+                          duration={500}
+                          style={{
+                            cursor: "pointer",
+                            textDecoration: "none",
+                          }}
+                        >
+                          Contact me
+                        </Link>{" "}
+                        for the user access.{" "}
+                      </p>
+                      <a
+                        href="https://presensi.dikysatria.net/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-primary btn-edited"
+                        style={{
+                          marginRight: "10px",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        Live Demo <i className="bi bi-arrow-right-short" />
+                      </a>
+                      <button
+                        className="btn btn-primary btn-edited-documentation"
+                        onClick={() => downloadFileAtURL(URL_PRESENSI)}
+                        style={{
+                          marginRight: "10px",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        PDF Documentation
+                      </button>
+                      <a
+                        href="https://github.com/diky-satria/fullstack-presensi"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-outline-dark btn-edited-github"
