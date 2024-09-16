@@ -30,7 +30,7 @@ export default function AboutMe() {
                 Jakarta
               </p>
               <p>
-                I have 1 year experience as a Fullstack developer. There are
+                I have 2 years experience as a Fullstack developer. There are
                 some webiste application I have been created, started web design
                 until web programming
               </p>
