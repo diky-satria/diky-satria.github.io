@@ -6,6 +6,7 @@ import portfolio4 from "../images/portfolio4.png";
 import portfolio5 from "../images/portfolio5.png";
 import portfolio6 from "../images/portfolio6.png";
 import portfolio7 from "../images/portfolio7.png";
+import portfolio8 from "../images/portfolio8.png";
 import { Link } from "react-scroll";
 import { downloadFileAtURL } from "../helpers/helpers";
 
@@ -77,6 +78,12 @@ export default function Portfolio() {
                 data-bs-target="#carouselExampleDark"
                 data-bs-slide-to={6}
                 aria-label="Slide 7"
+              />
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to={7}
+                aria-label="Slide 8"
               />
             </div>
             <div className="carousel-inner portfolio-konten">
@@ -654,6 +661,82 @@ export default function Portfolio() {
                       </button>
                       <a
                         href="https://github.com/diky-satria/fullstack-presensi"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-outline-dark btn-edited-github"
+                        style={{
+                          marginRight: "10px",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        Github <i className="bi bi-arrow-right-short" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item portfolio-item">
+                <div className="row justify-content-center">
+                  <div className="col-md-4">
+                    <div className="portfolio-gambar">
+                      <img
+                        src={portfolio8}
+                        className="d-block w-100"
+                        alt="portfolio8"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-md-5">
+                    <div className="portfolio-detail">
+                      <h2 className="p-title">Simple API</h2>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        Node JS
+                      </span>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        Express JS
+                      </span>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        MYSQL
+                      </span>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        Typescript
+                      </span>
+                      <span
+                        className="badge rounded-pill bg-primary"
+                        style={{ marginRight: "2px", fontSize: "10px" }}
+                      >
+                        Swagger
+                      </span>
+                      <p>
+                        This is a simple API documentation with swagger. You can
+                        try this free.
+                      </p>
+                      <a
+                        href="https://nodeapi.dikysatria.net/api-docs/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-primary btn-edited"
+                        style={{
+                          marginRight: "10px",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        Live Demo <i className="bi bi-arrow-right-short" />
+                      </a>
+                      <a
+                        href="https://github.com/diky-satria/node-ts-api-swagger"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-outline-dark btn-edited-github"
