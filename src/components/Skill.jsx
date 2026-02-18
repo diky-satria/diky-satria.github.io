@@ -59,6 +59,7 @@ export default function Skill() {
                         <li>Bootstrap</li>
                         <li>Ant Design</li>
                         <li>React JS</li>
+                        <li>Vue JS</li>
                         <li>Typescript</li>
                       </ul>
                     </div>
@@ -119,6 +120,7 @@ export default function Skill() {
                     <div className="accordion-body">
                       <ul>
                         <li>MYSQL</li>
+                        <li>PostgreSql</li>
                       </ul>
                     </div>
                   </div>

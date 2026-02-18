@@ -217,18 +217,20 @@ export default function Portfolio() {
                         </Link>{" "}
                         for user the access.{" "}
                       </p>
-                      <a
-                        href="https://kasir.dikysatria.net/"
-                        target="_blank"
+                      <button
+                        // href="https://kasir.dikysatria.net/"
+                        // target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-primary btn-edited"
                         style={{
                           marginRight: "10px",
                           marginBottom: "10px",
                         }}
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
                       >
                         Live Demo <i className="bi bi-arrow-right-short" />
-                      </a>
+                      </button>
                       <button
                         className="btn btn-primary btn-edited-documentation"
                         onClick={() => downloadFileAtURL(URL_KASIR)}
@@ -286,18 +288,20 @@ export default function Portfolio() {
                         <b>Bootstrap 4.</b> It's already responsive for each
                         size such as website, tablet and smartphone.
                       </p>
-                      <a
-                        href="https://bootstrap4.dikysatria.net/"
-                        target="_blank"
+                      <button
+                        // href="https://bootstrap4.dikysatria.net/"
+                        // target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-primary btn-edited"
                         style={{
                           marginRight: "10px",
                           marginBottom: "10px",
                         }}
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
                       >
                         Live Demo <i className="bi bi-arrow-right-short" />
-                      </a>
+                      </button>
                       <a
                         href="https://github.com/diky-satria/react-dashboard-boots4"
                         target="_blank"
@@ -347,18 +351,20 @@ export default function Portfolio() {
                         responsive for each size such as website, tablet and
                         smartphone.
                       </p>
-                      <a
-                        href="https://bootstrap5.dikysatria.net/"
-                        target="_blank"
+                      <button
+                        // href="https://bootstrap5.dikysatria.net/"
+                        // target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-primary btn-edited"
                         style={{
                           marginRight: "10px",
                           marginBottom: "10px",
                         }}
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
                       >
                         Live Demo <i className="bi bi-arrow-right-short" />
-                      </a>
+                      </button>
                       <a
                         href="https://github.com/diky-satria/react-dashboard-boots5"
                         target="_blank"
@@ -457,18 +463,20 @@ export default function Portfolio() {
                           Go to login page
                         </a>
                       </p>
-                      <a
-                        href="https://blog.dikysatria.net/"
-                        target="_blank"
+                      <button
+                        // href="https://blog.dikysatria.net/"
+                        // target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-primary btn-edited"
                         style={{
                           marginRight: "10px",
                           marginBottom: "10px",
                         }}
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
                       >
                         Live Demo <i className="bi bi-arrow-right-short" />
-                      </a>
+                      </button>
                       <button
                         className="btn btn-primary btn-edited-documentation"
                         onClick={() => downloadFileAtURL(URL_BLOG)}
@@ -533,18 +541,20 @@ export default function Portfolio() {
                         responsive for each size such as website, tablet and
                         smartphone.
                       </p>
-                      <a
-                        href="https://bootstrap5ts.dikysatria.net/"
-                        target="_blank"
+                      <button
+                        // href="https://bootstrap5ts.dikysatria.net/"
+                        // target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-primary btn-edited"
                         style={{
                           marginRight: "10px",
                           marginBottom: "10px",
                         }}
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
                       >
                         Live Demo <i className="bi bi-arrow-right-short" />
-                      </a>
+                      </button>
                       <a
                         href="https://github.com/diky-satria/react-dashboard-boots5-typescript"
                         target="_blank"
@@ -637,18 +647,20 @@ export default function Portfolio() {
                         </Link>{" "}
                         for the user access.{" "}
                       </p>
-                      <a
-                        href="https://presensi.dikysatria.net/"
-                        target="_blank"
+                      <button
+                        // href="https://presensi.dikysatria.net/"
+                        // target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-primary btn-edited"
                         style={{
                           marginRight: "10px",
                           marginBottom: "10px",
                         }}
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
                       >
                         Live Demo <i className="bi bi-arrow-right-short" />
-                      </a>
+                      </button>
                       <button
                         className="btn btn-primary btn-edited-documentation"
                         onClick={() => downloadFileAtURL(URL_PRESENSI)}
@@ -723,18 +735,20 @@ export default function Portfolio() {
                         This is a simple API documentation with swagger. You can
                         try this free.
                       </p>
-                      <a
-                        href="https://nodeapi.dikysatria.net/api-docs/"
-                        target="_blank"
+                      <button
+                        // href="https://nodeapi.dikysatria.net/api-docs/"
+                        // target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-primary btn-edited"
                         style={{
                           marginRight: "10px",
                           marginBottom: "10px",
                         }}
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
                       >
                         Live Demo <i className="bi bi-arrow-right-short" />
-                      </a>
+                      </button>
                       <a
                         href="https://github.com/diky-satria/node-ts-api-swagger"
                         target="_blank"
@@ -751,6 +765,20 @@ export default function Portfolio() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* MODAL */}
+      <div class="modal fade" id="exampleModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body text-center">
+              <p>
+                Sorry! Currently this feature is not ready, because the{" "}
+                <b>Hosting issue</b>
+              </p>
             </div>
           </div>
         </div>
