@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb811ad6.css",
-    "main.js": "/static/js/main.a81351fd.js",
-    "static/media/portfolio2.png": "/static/media/portfolio2.acbe9ed80c05eb3c8145.png",
-    "static/media/portfolio1.png": "/static/media/portfolio1.28a6455a3f013ad26c8e.png",
-    "static/media/portfolio3.png": "/static/media/portfolio3.8f9f034b3ce947669f40.png",
+    "main.css": "/static/css/main.9e6fa69d.css",
+    "main.js": "/static/js/main.8a52020c.js",
+    "static/media/portfolio4.png": "/static/media/portfolio4.e14f593c1080b4de1743.png",
+    "static/media/portfolio6.png": "/static/media/portfolio6.e14f593c1080b4de1743.png",
+    "static/media/portfolio3.png": "/static/media/portfolio3.e13a86d513ed46f04eb4.png",
+    "static/media/portfolio5.png": "/static/media/portfolio5.f1e28370f1d72c96dac8.png",
+    "static/media/portfolio7.png": "/static/media/portfolio7.8f7079bb8f13f4562412.png",
+    "static/media/portfolio1.png": "/static/media/portfolio1.54266ee3bc29170654fb.png",
+    "static/media/portfolio2.png": "/static/media/portfolio2.f50e83f9a72f71f330da.png",
     "static/media/home-img.png": "/static/media/home-img.4610f4017a1b8febf6a8.png",
     "static/media/tentang-saya-img.png": "/static/media/tentang-saya-img.9dbbaa68f3f08e3b6197.png",
-    "static/media/modern-admin.png": "/static/media/modern-admin.3f8ae584d86fb5a5c060.png",
+    "static/media/portfolio8.png": "/static/media/portfolio8.198ace1ca398ce5c4bfa.png",
     "index.html": "/index.html",
-    "main.fb811ad6.css.map": "/static/css/main.fb811ad6.css.map",
-    "main.a81351fd.js.map": "/static/js/main.a81351fd.js.map"
+    "main.9e6fa69d.css.map": "/static/css/main.9e6fa69d.css.map",
+    "main.8a52020c.js.map": "/static/js/main.8a52020c.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb811ad6.css",
-    "static/js/main.a81351fd.js"
+    "static/css/main.9e6fa69d.css",
+    "static/js/main.8a52020c.js"
   ]
 }
