@@ -18,7 +18,7 @@ export default function Contact() {
                             <div className="col">
                                 <div className="pk-item">
                                     <p><span><BsFillGeoAltFill /></span>Location</p>
-                                    <p className="p2">Jl. Salemba Bluntas, Jakarta Pusat</p>
+                                    <p className="p2">Perumahan Gardenia, Tangerang</p>
                                 </div>
                             </div>
                             <div className="col">

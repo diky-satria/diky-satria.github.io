@@ -7,6 +7,9 @@ import portfolio5 from "../images/portfolio5.png";
 import portfolio6 from "../images/portfolio6.png";
 import portfolio7 from "../images/portfolio7.png";
 import portfolio8 from "../images/portfolio8.png";
+import portfolio91 from "../images/portfolio91.png";
+import portfolio92 from "../images/portfolio92.png";
+import portfolio10 from "../images/portfolio10.png";
 import { Link } from "react-scroll";
 import { downloadFileAtURL } from "../helpers/helpers";
 
@@ -24,7 +27,8 @@ export default function Portfolio() {
             <p>What webstite application I have been created ?</p>
           </div>
         </div>
-        <div className="row">
+
+        {/* <div className="row">
           <div
             id="carouselExampleDark"
             className="carousel carousel-dark slide"
@@ -765,6 +769,392 @@ export default function Portfolio() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div> */}
+
+        <div className="row justify-content-center" style={{ marginBottom: "70px" }}>
+          <div className="col-md-5">
+            <div className="row">
+              <div className="col">
+                <div className="portfolio-gambar">
+                  <img
+                    src={portfolio91}
+                    className="d-block w-100"
+                    alt="portfolio91"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="row mt-4">
+              <div className="col">
+                <div className="portfolio-gambar">
+                  <img
+                    src={portfolio92}
+                    className="d-block w-100"
+                    alt="portfolio92"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="portfolio-detail">
+              <h2 className="p-title">Intelix</h2>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                Node JS
+              </span>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                Express JS
+              </span>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                Puppeteer
+              </span>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                PostgreSQL
+              </span>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                Vue JS
+              </span>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                Tailwind
+              </span>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                Ant Design
+              </span>
+              <p>
+                This is a Social Media Crawling System, that can scrape data from social media such as Facebook, X, Instagram, Tiktok and Youtube.{" "}
+                This system include sentiment analysis and data visualization.{" "}
+                <Link
+                  className="trigger"
+                  to="kontak"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                  style={{
+                    cursor: "pointer",
+                    textDecoration: "none",
+                  }}
+                >
+                  Contact me
+                </Link>{" "}
+                for the user access.{" "}
+              </p>
+              <a
+                href="http://103.160.62.211/intelix/"
+                target="_blank"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                className="btn btn-primary btn-edited trigger"
+                style={{
+                  marginRight: "10px",
+                  marginBottom: "10px",
+                }}
+              >
+                Live Demo <i className="bi bi-arrow-right-short" />
+              </a>
+              {/* <a
+                href="https://github.com/diky-satria/diky-satria.github.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline-dark btn-edited-github"
+                style={{
+                  marginRight: "10px",
+                  marginBottom: "10px",
+                }}
+              >
+                Github <i className="bi bi-arrow-right-short" />
+              </a> */}
+            </div>
+          </div>
+        </div>
+        <div className="row justify-content-center" style={{ marginBottom: "70px" }}>
+          <div className="col-md-5">
+            <div className="portfolio-gambar">
+              <img
+                src={portfolio10}
+                className="d-block w-100"
+                alt="portfolio10"
+              />
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="portfolio-detail">
+              <h2 className="p-title">Chris</h2>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                Node JS
+              </span>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                Express JS
+              </span>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                Puppeteer
+              </span>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                PostgreSQL
+              </span>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                Vue JS
+              </span>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                Tailwind
+              </span>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                Ant Design
+              </span>
+              <p>
+                This is a Cross Hotel Rate Intel System for comparison hotel prices, that can scrape data from Traveloka, Booking, Agoda, Trip and RW Genting.{" "}
+                <Link
+                  className="trigger"
+                  to="kontak"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                  style={{
+                    cursor: "pointer",
+                    textDecoration: "none",
+                  }}
+                >
+                  Contact me
+                </Link>{" "}
+                for the user access.{" "}
+              </p>
+              <a
+                href="http://103.160.62.211/chris-dev/"
+                target="_blank"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                className="btn btn-primary btn-edited trigger"
+                style={{
+                  marginRight: "10px",
+                  marginBottom: "10px",
+                }}
+              >
+                Live Demo <i className="bi bi-arrow-right-short" />
+              </a>
+              {/* <a
+                href="https://github.com/diky-satria/diky-satria.github.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline-dark btn-edited-github"
+                style={{
+                  marginRight: "10px",
+                  marginBottom: "10px",
+                }}
+              >
+                Github <i className="bi bi-arrow-right-short" />
+              </a> */}
+            </div>
+          </div>
+        </div>
+        <div className="row justify-content-center" style={{ marginBottom: "70px" }}>
+          <div className="col-md-5">
+            <div className="portfolio-gambar">
+              <img
+                src={portfolio2}
+                className="d-block w-100"
+                alt="portfolio2"
+              />
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="portfolio-detail">
+              <h2 className="p-title">POS</h2>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                Node JS
+              </span>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                Express JS
+              </span>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                MYSQL
+              </span>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                React JS
+              </span>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                Bootstrap 4
+              </span>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                Ant Design
+              </span>
+              <p>
+                This is a Point of Sale (POS) system to do payment processing, it's my freelance project
+                for one of the clinic in Jakarta. it's have 2 role
+                access, admin and cashier.{" "}
+                <Link
+                  className="trigger"
+                  to="kontak"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                  style={{
+                    cursor: "pointer",
+                    textDecoration: "none",
+                  }}
+                >
+                  Contact me
+                </Link>{" "}
+                for the user access.{" "}
+              </p>
+              <a
+                href="http://103.160.62.211/pos/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary btn-edited"
+                style={{
+                  marginRight: "10px",
+                  marginBottom: "10px",
+                }}
+              >
+                Live Demo <i className="bi bi-arrow-right-short" />
+              </a>
+              {/* <button
+                className="btn btn-primary btn-edited-documentation"
+                onClick={() => downloadFileAtURL(URL_KASIR)}
+                style={{
+                  marginRight: "10px",
+                  marginBottom: "10px",
+                }}
+              >
+                PDF Documentation
+              </button> */}
+              <a
+                href="https://github.com/diky-satria/fullstack-chasier"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline-dark btn-edited-github"
+                style={{
+                  marginRight: "10px",
+                  marginBottom: "10px",
+                }}
+              >
+                Github <i className="bi bi-arrow-right-short" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="row justify-content-center" style={{ marginBottom: "70px" }}>
+          <div className="col-md-5">
+            <div className="portfolio-gambar">
+              <img
+                src={portfolio1}
+                className="d-block w-100"
+                alt="portfolio1"
+              />
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="portfolio-detail">
+              <h2 className="p-title">Personal Landing Page</h2>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                React JS
+              </span>
+              <span
+                className="badge rounded-pill bg-primary"
+                style={{ marginRight: "2px", fontSize: "10px" }}
+              >
+                Bootstrap 5
+              </span>
+              <p>
+                This is a my personal website to show details of my experience 
+              </p>
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                className="btn btn-primary btn-edited trigger"
+                style={{
+                  marginRight: "10px",
+                  marginBottom: "10px",
+                }}
+              >
+                Live Demo <i className="bi bi-arrow-right-short" />
+              </Link>
+              <a
+                href="https://github.com/diky-satria/diky-satria.github.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline-dark btn-edited-github"
+                style={{
+                  marginRight: "10px",
+                  marginBottom: "10px",
+                }}
+              >
+                Github <i className="bi bi-arrow-right-short" />
+              </a>
             </div>
           </div>
         </div>

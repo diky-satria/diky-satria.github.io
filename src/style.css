@@ -87,6 +87,8 @@ body.dark {
 }
 .home .h1-2 {
   margin-bottom: 20px;
+  font-weight: bold;
+  color: red;
 }
 .home h1 {
   font-weight: 700;

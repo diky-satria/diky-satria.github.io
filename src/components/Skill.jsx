@@ -57,6 +57,7 @@ export default function Skill() {
                         <li>JQuery</li>
                         <li>Ajax</li>
                         <li>Bootstrap</li>
+                        <li>Tailwind</li>
                         <li>Ant Design</li>
                         <li>React JS</li>
                         <li>Vue JS</li>
@@ -150,6 +151,34 @@ export default function Skill() {
                       <ul>
                         <li>Git</li>
                         <li>Github</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingFive">
+                    <button
+                      onClick={(e) => accordionActive(e)}
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive"
+                      aria-expanded="false"
+                      aria-controls="collapseFive"
+                    >
+                      Scraping Tool
+                      <BsFillArrowDownCircleFill className="ms-auto" />
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFive"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div className="accordion-body">
+                      <ul>
+                        <li>Puppeteer</li>
                       </ul>
                     </div>
                   </div>
