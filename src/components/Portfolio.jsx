@@ -953,7 +953,7 @@ export default function Portfolio() {
               </span>
               <p>
                 This is a Cross Hotel Rate Intel System for <b>prices hotel comparison,</b> it's can scrape prices from <b>Traveloka, Booking, Agoda, Trip and RW Genting (Malaysia).</b>{" "}
-                This app I create for malaysia company, I dedicated on backend and scraping on this. <span style={{ color: "red", fontWeight: "bold" }}>For privacy needed of the company I only provide the link but not for the credentials.</span>
+                This app I create for malaysia company, I dedicated on backend and scraping on this. <span style={{ color: "red", fontWeight: "bold" }}>For privacy needed of the company I only provide the link and open to demo, but will not share for the credentials.</span>
               </p>
               <a
                 href="https://chris.alpharedpro.com"
