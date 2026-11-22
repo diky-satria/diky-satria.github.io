@@ -27,11 +27,10 @@ export default function AboutMe() {
               <p>
                 Hello, my name is Diky Satria Ramadanu, I am a Full Stack
                 Developer. I am from Aceh Indonesia, but currently I live in
-                Tangerang
+                Tangerang Indonesia
               </p>
               <p>
-                I have 3 years experience as a Fullstack developer. There are
-                some webiste application I have been created
+                I have 4 years experience as a Fullstack developer. I also familiar with web scraping or web automation.
               </p>
               <p>
                 If you interest with me and want to cooperate with me, please

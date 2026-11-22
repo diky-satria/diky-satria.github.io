@@ -1,5 +1,5 @@
 {
-  "homepage": "https://diky-satria.github.io",
+  "homepage": "/me",
   "name": "personal-landing-page-react",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +18,6 @@
     "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "/me",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

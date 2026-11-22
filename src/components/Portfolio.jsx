@@ -10,6 +10,7 @@ import portfolio8 from "../images/portfolio8.png";
 import portfolio91 from "../images/portfolio91.png";
 import portfolio92 from "../images/portfolio92.png";
 import portfolio10 from "../images/portfolio10.png";
+import portfolio11 from "../images/portfolio11.png";
 import { Link } from "react-scroll";
 import { downloadFileAtURL } from "../helpers/helpers";
 
@@ -844,7 +845,7 @@ export default function Portfolio() {
                 Ant Design
               </span>
               <p>
-                This is a Social Media Crawling System, that can scrape data from social media such as Facebook, X, Instagram, Tiktok and Youtube.{" "}
+                This is a Social Media Crawling System, that can scrape data from social media such as <b>Facebook, X, Instagram, Tiktok and Youtube.</b>{" "}
                 This system include sentiment analysis and data visualization.{" "}
                 <Link
                   className="trigger"
@@ -894,12 +895,27 @@ export default function Portfolio() {
         </div>
         <div className="row justify-content-center" style={{ marginBottom: "70px" }}>
           <div className="col-md-5">
-            <div className="portfolio-gambar">
-              <img
-                src={portfolio10}
-                className="d-block w-100"
-                alt="portfolio10"
-              />
+            <div className="row">
+              <div className="col">
+                <div className="portfolio-gambar">
+                  <img
+                    src={portfolio10}
+                    className="d-block w-100"
+                    alt="portfolio10"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="row mt-4">
+              <div className="col">
+                <div className="portfolio-gambar">
+                  <img
+                    src={portfolio11}
+                    className="d-block w-100"
+                    alt="portfolio11"
+                  />
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-md-6">
@@ -933,40 +949,14 @@ export default function Portfolio() {
                 className="badge rounded-pill bg-primary"
                 style={{ marginRight: "2px", fontSize: "10px" }}
               >
-                Vue JS
-              </span>
-              <span
-                className="badge rounded-pill bg-primary"
-                style={{ marginRight: "2px", fontSize: "10px" }}
-              >
-                Tailwind
-              </span>
-              <span
-                className="badge rounded-pill bg-primary"
-                style={{ marginRight: "2px", fontSize: "10px" }}
-              >
-                Ant Design
+                React JS
               </span>
               <p>
-                This is a Cross Hotel Rate Intel System for comparison hotel prices, that can scrape data from Traveloka, Booking, Agoda, Trip and RW Genting.{" "}
-                <Link
-                  className="trigger"
-                  to="kontak"
-                  spy={true}
-                  smooth={true}
-                  offset={0}
-                  duration={500}
-                  style={{
-                    cursor: "pointer",
-                    textDecoration: "none",
-                  }}
-                >
-                  Contact me
-                </Link>{" "}
-                for the user access.{" "}
+                This is a Cross Hotel Rate Intel System for <b>prices hotel comparison,</b> it's can scrape prices from <b>Traveloka, Booking, Agoda, Trip and RW Genting (Malaysia).</b>{" "}
+                This app I create for malaysia company, I dedicated on backend and scraping on this. <span style={{ color: "red", fontWeight: "bold" }}>For privacy needed of the company I only provide the link but not for the credentials.</span>
               </p>
               <a
-                href="http://103.160.62.211/chris-dev/"
+                href="https://chris.alpharedpro.com"
                 target="_blank"
                 spy={true}
                 smooth={true}

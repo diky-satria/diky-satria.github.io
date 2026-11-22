@@ -15,7 +15,7 @@ export default function Home() {
                   Hello, it's me{" "}
                   <span className="home-nama">Diky Satria Ramadanu</span>
                 </h1>
-                <h5 className="h1-2">Full Stack Developer | Web Scraping Engineer | Automation Engineer</h5>
+                <h5 className="h1-2">Full Stack Developer | Web Scraping Engineer | Web Automation Engineer</h5>
                 <p className="home-p">
                   This is my official portfolio website that showing all details of
                   my experiences as a Full Stack Developer

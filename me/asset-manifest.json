@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/me/static/css/main.a4cb5e1c.css",
+    "main.js": "/me/static/js/main.e4059c91.js",
+    "static/media/portfolio4.png": "/me/static/media/portfolio4.e14f593c1080b4de1743.png",
+    "static/media/portfolio6.png": "/me/static/media/portfolio6.e14f593c1080b4de1743.png",
+    "static/media/portfolio3.png": "/me/static/media/portfolio3.e13a86d513ed46f04eb4.png",
+    "static/media/portfolio5.png": "/me/static/media/portfolio5.f1e28370f1d72c96dac8.png",
+    "static/media/portfolio7.png": "/me/static/media/portfolio7.8f7079bb8f13f4562412.png",
+    "static/media/portfolio91.png": "/me/static/media/portfolio91.898340ba19fd1d58df11.png",
+    "static/media/portfolio2.png": "/me/static/media/portfolio2.f50e83f9a72f71f330da.png",
+    "static/media/portfolio10.png": "/me/static/media/portfolio10.931b20fda5c2172dd3b6.png",
+    "static/media/portfolio92.png": "/me/static/media/portfolio92.5b5f0934843f06733c58.png",
+    "static/media/portfolio1.png": "/me/static/media/portfolio1.3035cf9b2f06cb29a765.png",
+    "static/media/home-img.png": "/me/static/media/home-img.4610f4017a1b8febf6a8.png",
+    "static/media/tentang-saya-img.png": "/me/static/media/tentang-saya-img.9dbbaa68f3f08e3b6197.png",
+    "static/media/portfolio8.png": "/me/static/media/portfolio8.198ace1ca398ce5c4bfa.png",
+    "index.html": "/me/index.html",
+    "main.a4cb5e1c.css.map": "/me/static/css/main.a4cb5e1c.css.map",
+    "main.e4059c91.js.map": "/me/static/js/main.e4059c91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4cb5e1c.css",
+    "static/js/main.e4059c91.js"
+  ]
+}
